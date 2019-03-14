@@ -1,0 +1,19 @@
+body{
+    background: #09097f;
+    text-align: center;
+}
+#main {
+    width: 1000px;
+    height: 600px;
+    background: hsl(60, 100%, 93%);
+    margin: 25px auto;
+}
+h1{
+    text-align: center;
+    font-family: "Arial";
+    font: 26pt;
+}
+p{
+    text-align: left;
+    font-family: "Calibri";
+}
