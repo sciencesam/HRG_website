@@ -73,9 +73,10 @@ nav ul li.about ul.dropdownContent {
 }
 nav ul li.about:hover ul.dropdownContent {
     display: block; /* Show Sub Menu on Hover */
-    position: fixed;
+    position: relative;
+    overflow: visible;
     width: 15em;
-    right: 7.55%;
+    right: 0px;
     background: #DCDCDC;
 }
 
