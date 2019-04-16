@@ -72,8 +72,8 @@ nav ul li.about ul.dropdownContent {
     display: none; /* Hide Sub Menu */
 }
 nav ul li.about:hover ul.dropdownContent {
-    display: block; /* Show Sub Menu on Hover */
-    position: relative;
+    display: inline-block; /* Show Sub Menu on Hover*/ 
+    position: absolute;
     overflow: visible;
     width: 15em;
     right: 0px;
@@ -89,7 +89,7 @@ nav ul li.about ul.dropdownContent li:hover {
 }
 nav ul li.about ul.dropdownContent li a {
     display: block;
-}
+} 
 
 header .current a{
     color: #ffffff;
@@ -148,7 +148,7 @@ footer{
 }
 
 footer a{
-    color: #ffffff;
+    background: #ffa500;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -240,6 +240,4 @@ footer nav{
     #showcase h1{
         margin-top: 40px;
     }
-
-
 }
