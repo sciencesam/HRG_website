@@ -71,14 +71,9 @@ header nav{
     color: #fff;
   }
   
-  li:hover,
-  li:focus-within {
+  li:hover {
       background: red;
       cursor: pointer;
-  }
-  
-  li:focus-within a {
-    outline: none;
   }
   
   ul li ul {
@@ -94,7 +89,6 @@ header nav{
   }
   
   ul li:hover > ul,
-  ul li:focus-within > ul,
   ul li ul:hover,
   ul li ul:focus {
      visibility: visible;
