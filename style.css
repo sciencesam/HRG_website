@@ -253,3 +253,10 @@ footer nav{
         margin-top: 40px;
     }
 }
+
+/* intro container */
+#intro-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
